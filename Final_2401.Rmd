@@ -133,4 +133,11 @@ cereal %>%
   arrange(carbo)
 ```
 
+# What are the Calories grouped by shelfs?
+```{r}
+cereal %>% 
+  ggplot(aes(calories, shelf, group = shelf, fill = shelf)) + 
+  geom_violin()
+
+```
 
