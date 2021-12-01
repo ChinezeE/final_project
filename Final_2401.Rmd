@@ -1,5 +1,7 @@
 ---
 title: 'Final Project: Cereals'
+author: "Chineze.julie, Juritza"
+date: "11/6/2021"
 output:
   html_document: default
   pdf_document: default
@@ -8,8 +10,6 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-
-## R Markdown
 
 
 ```{r}
@@ -232,9 +232,7 @@ boxplot(cereal$calories~cereal$mfr,
 
 ## Summary
 
-
-
-
+To conclude, looking at the nutrition facts of these, we can conclude that cereal isn't the healthiest option in the market. Hopefully, we have convinced you to be aware the next time you go to pick your cereal of choice you will take a second look at the nutrition facts. Although yummy and easy to prepare, its not the healthiest to consume as an everyday meal. Weather it be for breakfast or for a mid-day snack. If you do decide to gobble down that bowl of cereal at 2 in the morning, maybe not something that is high in fiber. Maybe every now-and-then treat yourself with some avocado toast or some acai bowl. 
 
 
 ## Resources 
@@ -244,8 +242,7 @@ boxplot(cereal$calories~cereal$mfr,
 - How to plot, and how to plot multiple graphs:https://www.youtube.com/watch?v=Z3V4Pbxeahg
 - Protein and its importance: https://www.youtube.com/watch?v=Fe5wHw3pnmY
 - Ketogenic lifestyle: https://www.everydayhealth.com/diet-nutrition/ketogenic-diet/ , https://www.everydayhealth.com/ketogenic-diet/diet/types-targeted-keto-high-protein-keto-keto-cycling-more/
-- More information on Fiber: https://www.hsph.harvard.edu/nutritionsource/carbohydrates/fiber/
-
+- More information on Fiber: https://www.hsph.harvard.edu/nutritionsource/carbohydrates/fiber/, https://www.healthline.com/health/soluble-vs-insoluble-fiber
 
 
 
